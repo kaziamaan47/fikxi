@@ -1,4 +1,4 @@
-# RetailOps Intelligence Platform - Architecture
+# Nimbus - Architecture
 
 ## Project Goal
 
