@@ -256,6 +256,34 @@ A payment can have the following statuses:
 7. Car Service
 
 ---
+---
+
+## Customer Job Posting Experience
+
+The first valuable action after login is posting a job.
+
+The customer home screen should focus on one primary action:
+
+**Post a Job**
+
+The job posting process should be completed in under 60 seconds.
+
+Fikxi will use a step-by-step wizard instead of one long form.
+
+### Job Posting Wizard
+
+1. Choose service category
+2. Choose subcategory
+3. Describe the problem
+4. Add photos
+5. Choose preferred date and time
+6. Add budget or request quotations
+7. Review and post job
+
+### Design Principle
+
+The customer should never need technical knowledge to request a service.
+
 
 ## Success Criteria for MVP
 
