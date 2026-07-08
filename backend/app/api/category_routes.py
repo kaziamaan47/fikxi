@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-
+from app.schemas.category_schema import ServiceCategoryListResponse
 
 router = APIRouter(prefix="/categories", tags=["Service Categories"])
 
@@ -39,6 +39,9 @@ SERVICE_CATEGORIES = [
 ]
 
 
-@router.get("")
+from app.schemas.category_schema import ServiceCategoryListResponse
+
+
+@router.get("", response_model=ServiceCategoryListResponse)
 def list_categories():
     return {"categories": SERVICE_CATEGORIES}
